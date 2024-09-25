@@ -13,6 +13,12 @@
   "devDependencies": {
     "@types/node": "^22.5.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.2",
+    "@types/uuid": "^10.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.63.0",
+    "uuid": "^10.0.0"
   }
 }
