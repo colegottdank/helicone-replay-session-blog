@@ -1,6 +1,6 @@
 # Helicone Example Project
 
-A simple Node.js and TypeScript project demonstrating the use of Helicone.
+A simple Node.js project demonstrating how to use Helicone with OpenAI's API to conduct and replay debate sessions.
 
 ## Setup
 
@@ -17,6 +17,7 @@ A simple Node.js and TypeScript project demonstrating the use of Helicone.
    ```
    HELICONE_API_KEY=your_helicone_api_key
    OPENAI_API_KEY=your_openai_api_key
+   SESSION_ID=your_session_id
    ```
 
 3. **Running the Script:**
@@ -25,10 +26,11 @@ A simple Node.js and TypeScript project demonstrating the use of Helicone.
    yarn start
    ```
 
-## What it does
+## What It Does
 
-This script demonstrates how to use Helicone with OpenAI API calls. It shows how to make requests to OpenAI services while leveraging Helicone's features for monitoring and analyzing API usage.
+- **Start a New Debate Session:** Engage in a debate with an AI assistant on a topic of your choice.
+- **Replay an Existing Session:** Replay a previous debate session by providing its session ID.
 
 ## Note
 
-Make sure you have the necessary API keys and permissions to use both Helicone and OpenAI services.
+Ensure you have valid API keys for both Helicone and OpenAI.
